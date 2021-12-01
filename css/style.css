@@ -1,11 +1,38 @@
 @import url(fontiran.css);
 
 body {
-   font-family: farhang;
-   --main-color: #29d7d8;
-   overflow-x: hidden;
+  font-family: iranyekan !important;
 }
 
 body a {
-   text-decoration: none;
+  text-decoration: none;
+}
+
+.main-picture {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.h1-sec {
+  font-size: 22px;
+}
+.p-sec {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+.img-sec {
+  width: 436px;
+  height: 430px;
+}
+
+.main-menu {
+  background-color: #0cffe48a !important;
+}
+
+.menu-socails {
+  color: #fff;
+  font-size: 38px;
+}
+.menu-socails:hover {
+  color: #fff;
 }
