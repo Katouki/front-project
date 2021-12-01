@@ -1,0 +1,11 @@
+@import url(fontiran.css);
+
+body {
+   font-family: farhang;
+   --main-color: #29d7d8;
+   overflow-x: hidden;
+}
+
+body a {
+   text-decoration: none;
+}
