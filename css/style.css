@@ -32,6 +32,9 @@ body a {
 .main-picture {
   height: 100vh;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .h1-sec {
@@ -187,6 +190,9 @@ span.overlay::after {
   height: 400px;
   overflow: hidden;
   margin: 140px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .articles-title {

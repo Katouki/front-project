@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+  .media-sec {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .articles-card-content {
+    padding: 30% 20px;
+  }
+}
