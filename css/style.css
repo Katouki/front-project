@@ -2,11 +2,32 @@
 
 body {
   font-family: iranyekan !important;
+  overflow-x: hidden;
 }
 
 body a {
   text-decoration: none;
 }
+
+/* استایل مربوط به اسلایدر OWL */
+
+.owl-theme .owl-dots .owl-dot span {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  width: 20px !important;
+  height: 3px !important;
+  margin-left: 7px !important;
+  margin-right: 7px !important;
+  background: #00b8d4 !important;
+  border: none !important;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #00e5ff !important;
+}
+
+/* استایل مربوط به اسلایدر OWL */
 
 .main-picture {
   height: 100vh;
@@ -26,7 +47,7 @@ body a {
 }
 
 .main-menu {
-  background-color: #0cffe48a !important;
+  background-color: #489f968a !important;
 }
 
 .menu-socails {
@@ -35,4 +56,180 @@ body a {
 }
 .menu-socails:hover {
   color: #fff;
+}
+
+.secProperty-bg {
+  background-image: linear-gradient(170deg, #09a6a6 5%, #09668e 100%);
+}
+
+.secProperty-des {
+  font-size: 14px;
+}
+
+.secApplications {
+  background: linear-gradient(170deg, #09a6a6 5%, #09668e 100%);
+}
+
+.secApplications-img {
+  max-width: 500px;
+}
+
+.secApplications-h4 {
+  font-size: 32px;
+}
+
+.secApplications-h3 {
+  line-height: inherit;
+  font-size: 32px;
+}
+
+.secApplications-p {
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.videoholder {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videoholder video {
+  position: absolute !important;
+  top: 0;
+  right: auto;
+  min-width: 150%;
+  min-height: 100%;
+}
+.videoholder .video-overlay {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(170deg, #09a6a6 5%, #09668e 100%);
+  opacity: 0.9;
+  z-index: 0;
+}
+
+span.overlay {
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+span.overlay::after {
+  background: linear-gradient(170deg, #09a6a678 5%, #09668e6b 100%);
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.inner-holder {
+  z-index: 99;
+}
+.inner-holder h3 {
+  background: #00000096;
+  color: #fff;
+  font-size: 24px;
+  padding: 11px 20px;
+  border-radius: 4px;
+}
+
+.video-box,
+.video-box-video {
+  height: 600px;
+}
+
+/* اسلایدر ویدیو */
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+.splide__slide {
+  opacity: 0.3;
+}
+
+.splide__slide.is-active {
+  opacity: 1;
+  border: none !important;
+}
+
+.splide--nav
+  > .splide__slider
+  > .splide__track
+  > .splide__list
+  > .splide__slide,
+.splide--nav > .splide__track > .splide__list > .splide__slide {
+  border: none !important;
+}
+/* اسلایدر ویدیو */
+
+.certificate-img {
+  width: 385px;
+  height: 490px;
+}
+
+.company-logo {
+  width: 150px;
+  height: auto;
+}
+
+.media-sec {
+  height: 400px;
+  overflow: hidden;
+  margin: 140px 0;
+}
+
+.articles-title {
+  font-size: 34px;
+}
+
+.articles-card {
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 57px;
+  overflow: hidden;
+  position: relative;
+}
+
+.articles-card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(
+    30deg,
+    rgba(187, 169, 5, 0.6502801804315477) 0%,
+    rgba(2, 0, 36, 0) 50%
+  );
+}
+
+.articles-card-content {
+  background: #2898f170;
+  padding: 45% 20px;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  right: -300%;
+  z-index: 999;
+}
+.articles-card:hover .articles-card-content {
+  right: 0;
+  opacity: 1;
+}
+
+.articles-card-content a {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
 }
