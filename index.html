@@ -1,19 +1,438 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
 
-    <title>NewProject</title>
-  </head>
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/all.min.css" />
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/fontiran.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <title>NewProject</title>
+</head>
 
-  <body>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<body>
+   <!-- منو اصلی سایت -->
+
+   <nav class="navbar navbar-dark fixed-top px-5" dir="ltr">
+      <div class="container-fluid">
+
+
+         <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" alt="logo" class="w-75">
+         </a>
+         <button class="navbar-toggler button-menu" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+
+            <svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="36"
+               height="27" viewBox="0 0 36 27">
+               <rect id="Rectangle_1" data-name="Rectangle 1" width="36" height="7" rx="3.5" fill="#fff"></rect>
+               <rect id="Rectangle_1_copy" data-name="Rectangle 1 copy" width="36" height="7" rx="3.5"
+                  transform="translate(0 10)" fill="#fff"></rect>
+               <rect id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" width="25.5" height="7" rx="3.5"
+                  transform="translate(10.5 20)" fill="#fff"></rect>
+            </svg>
+
+         </button>
+
+
+         <div class="offcanvas offcanvas-start px-5 pt-5 main-menu" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel" dir="rtl">
+            <div class="offcanvas-header pt-5">
+               <a class="navbar-brand" id="offcanvasNavbarLabel" href="#">
+                  <img src="images/logo.svg" alt="logo" class="w-50">
+               </a>
+               <!-- <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button> -->
+               <button type="button" class="btn text-light button-close">
+                  <i class="fad fa-times  display-6" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+               </button>
+            </div>
+            <div class="offcanvas-body">
+
+               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item py-3">
+                     <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">برگه نمونه</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">پرداخت</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">حساب کاربری من</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">سبد خرید</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">فروشگاه</a>
+                  </li>
+               </ul>
+
+            </div>
+
+            <ul class="nav mb-4 float-end ms-auto">
+               <li class="nav-item">
+                  <a class="nav-link menu-socails " href="#">
+                     <i class="fab fa-instagram"></i>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link menu-socails " href="#">
+                     <i class="fab fa-twitter"></i>
+                  </a>
+               </li>
+            </ul>
+
+         </div>
+
+      </div>
+   </nav>
+   <!-- پایان منوی اصلی سایت -->
+
+   <section>
+      <div class="s-header d-flex">
+         <div class="position-relative col-lg-4 col-none">
+            <img class="position-absolute d-none d-lg-block cloud ms-5 " src="images/cloud.png" alt="">
+            <img class="position-absolute d-none d-lg-block cloud2 " src="images/cloud.png" alt="">
+            <img class="position-absolute d-none d-lg-block cloud3 " src="images/cloud.png" alt="">
+            <img class="position-absolute d-none d-lg-block battery" src="images/Battery.png" alt="">
+         </div>
+         <div class="col-lg-8 col-12 my-auto">
+            <div class="col-12 text-center">
+               <h1 class="text-white fw-bolder mb-4">سانیــوا،انــرژی آینــده...</h1>
+               <p class="fw-bold"> باتـری بـا فنـاوری فلـز-هـوا</p>
+               <button class="btn fw-bold bg-white px-4 py-2 btn-header">اطلاعات بیشتر</button>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- بنر نواسی -->
+
+   <section>
+      <div class="banner">
+
+         <h5 class="text-white position-absolute text-banner my-auto col-md-3 col-6">کار ما پاسخگویی به نیازهای کشور با
+            تولید محصولات خلاق و بکارگیری فناوری های نوین(hightech) است.</h5>
+
+      </div>
+   </section>
+
+   <!-- دپارتمان دارو و مواد شیمیایی -->
+
+   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators carousel-main col-1 position-absolute m-0 ">
+         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+            class="active btn-departman btnt-departman" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btnm-departman"
+            aria-label="Slide 2"></button>
+         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btnb-departman"
+            aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+
+            <section class="position-relative">
+               <div>
+                  <a class="btn mahsulat position-absolute px-3 text-white text-center">پروژه ها</a>
+               </div>
+               <div class="vh-100 container d-lg-flex d-block ">
+                  <div class="col-lg-7 col-12 mt-5  text-center my-lg-auto">
+                     <img class="w-25" src="images/khalaghiat.png" alt="">
+                  </div>
+                  <div class="col-lg-5 col-12 mt-5  text-center text-lg-start my-lg-auto ">
+                     <h1 class="fw-bold mb-4">آینده بر مدار علم</h1>
+                     <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان فناوری های نوین</p>
+                     <p class="mt-4 departman-p2">این دپارتمان با هدف تحقیق، توسعه و بومی سازی فناوری های نوین فعالیت می
+                        کند. حل مشکلات با استفاده از فناوری های بروز دغدغه ماست. همچنین تلاش می کنیم تا در زمینه های
+                        متفاوت به آخرین سطح تکنولوژی دست پیدا کنیم.</p>
+                  </div>
+               </div>
+            </section>
+
+         </div>
+         <div class="carousel-item">
+            <section>
+
+               <div class="vh-100 container d-lg-flex d-block ">
+                  <div class="col-lg-7 col-12 mt-5  text-center my-lg-auto">
+                     <img class="w-50" src="images/shimi.png" alt="">
+                  </div>
+                  <div class="col-lg-5 col-12 mt-5  text-center text-lg-start my-lg-auto ">
+                     <h1 class="fw-bold mb-4">کیمیاگری در بی نهایت</h1>
+                     <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان دارو و مواد شیمایی</p>
+                     <p class="mt-4 departman-p2">این دپارتمان با هدف ساخت و تولید مواد شیمیایی مورد نیاز کشور و همچنین
+                        داروهای تلفیقی(برپایه گیاهی) فعالیت می کند.تمامی مراحل طراحی،ساخت و تولید این مواد در داخل کشور
+                        طی می شود.</p>
+                  </div>
+               </div>
+            </section>
+         </div>
+         <div class="carousel-item">
+            <section class="position-relative">
+               <div>
+                  <a class="btn mahsulat position-absolute px-3 text-white text-center" href>محصولات</a>
+               </div>
+               <div class="vh-100 container d-lg-flex d-block ">
+                  <div class="col-lg-7 col-12 mt-5  text-center my-lg-auto">
+                     <img class="w-25" src="images/fanavari-novin.png" alt="">
+                  </div>
+                  <div class="col-lg-5 col-12 mt-5  text-center text-lg-start my-lg-auto ">
+                     <h1 class="fw-bold mb-4">آینده بر مدار علم</h1>
+                     <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان فناوری های نوین</p>
+                     <p class="mt-4 departman-p2">این دپارتمان با هدف تحقیق، توسعه و بومی سازی فناوری های نوین فعالیت می
+                        کند. حل مشکلات با استفاده از فناوری های بروز دغدغه ماست. همچنین تلاش می کنیم تا در زمینه های
+                        متفاوت به آخرین سطح تکنولوژی دست پیدا کنیم.</p>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+   </div>
+
+   <!-- سانیوا،باتری فلز و هوا -->
+
+   <section>
+      <div class="vh-100 bg-saniva">
+         <div class="container">
+            <div class="text-center text-white text-artboard">
+               <h1 class="mb-5">سانیوا،باتری هوا-فلز</h1>
+               <p class="text-p-artboard mb-5">
+                  شرکت نواسی در یک تلاش هدفمند و طاقت فرسا با اتکا به تلاش، دانش و استعداد جوانان ایرانی توانسته ظرف مدت
+                  2 سال، به تکنولوژی ساخت این باطری های (High Tech) دسترسی پیدا کند!<br><br> ما این محصول را که از لحاظ
+                  تکنولوژی همتراز پروژه
+                  های فعلی شرکت بزرگ دنیا و حتی در برخی موارد جلوتر از آنهاست، سانیوا نامیده ایم!</p>
+            </div>
+            <button class="btn fw-bold bg-white px-4 py-2 btn-header float-end me-4">اطلاعات بیشتر</button>
+         </div>
+      </div>
+   </section>
+
+   <!-- جدیدترین مقالات -->
+
+   <section class="articles my-5">
+      <div class="vh-100">
+         <div class="container">
+            <div class="row g-4">
+
+
+               <div class="col-12 mb-5">
+                  <h4 class=" articles-title text-dark">
+                     جدیدترین مقالات
+                  </h4>
+               </div>
+
+
+               <div class="col-lg-4 px-5">
+                  <div class="articles-card position-relative mx-auto"
+                     style="background-image: url('images/zarepoor-minister.jpeg')">
+
+
+                     <div class="articles-card-content position-absolute w-100 h-100">
+                        <a href="#" class="text-white">
+                           جزئیات بررسی صلاحیت وزیر پیشنهادی ارتباطات؛ موافقان و مخالفان چه گفتند؟
+                        </a>
+                        <p class="text-white lead my-4">
+                           2021-10-26
+                        </p>
+                     </div>
+
+
+                  </div>
+               </div>
+
+
+               <div class="col-lg-4 px-5">
+                  <div class="articles-card position-relative mx-auto"
+                     style="background-image: url('images/zarepoor-minister2.jpeg')">
+
+
+                     <div class="articles-card-content position-absolute w-100 h-100">
+                        <a href="#" class="text-white">
+                           جزئیات بررسی صلاحیت وزیر پیشنهادی ارتباطات؛ موافقان و مخالفان چه گفتند؟
+                        </a>
+                        <p class="text-white lead my-4">
+                           2021-10-26
+                        </p>
+                     </div>
+
+
+                  </div>
+               </div>
+
+
+
+               <div class="col-lg-4 px-5">
+                  <div class="articles-card position-relative mx-auto"
+                     style="background-image: url('images/post.resixe.png')">
+
+
+                     <div class="articles-card-content position-absolute w-100 h-100">
+                        <a href="#" class="text-white">
+                           جزئیات بررسی صلاحیت وزیر پیشنهادی ارتباطات؛ موافقان و مخالفان چه گفتند؟
+                        </a>
+                        <p class="text-white lead my-4">
+                           2021-10-26
+                        </p>
+                     </div>
+
+
+                  </div>
+               </div>
+
+               <div class="col-12 px-5 mt-5">
+                  <div class="float-end">
+                     <a href="#" target="blanket" class="text-dark">
+                        همه موارد
+                     </a>
+                     <i class="fal fa-arrow-left text-dark"></i>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+   </section>
+
+   <!-- آخرین اخبار -->
+
+   <section class="articles my-5">
+      <div class="vh-100">
+         <div class="container">
+            <div class="row g-4">
+
+
+               <div class="col-12 mb-5">
+                  <h4 class=" articles-title text-dark">
+                     آخرین اخبار
+                  </h4>
+               </div>
+
+
+               <div class="col-lg-4 px-5">
+                  <div class="articles-card position-relative mx-auto"
+                     style="background-image: url('images/zarepoor-minister.jpeg')">
+
+
+                     <div class="articles-card-content position-absolute w-100 h-100">
+                        <a href="#" class="text-white">
+                           جزئیات بررسی صلاحیت وزیر پیشنهادی ارتباطات؛ موافقان و مخالفان چه گفتند؟
+                        </a>
+                        <p class="text-white lead my-4">
+                           2021-10-26
+                        </p>
+                     </div>
+
+
+                  </div>
+               </div>
+
+
+               <div class="col-lg-4 px-5">
+                  <div class="articles-card position-relative mx-auto"
+                     style="background-image: url('images/zarepoor-minister2.jpeg')">
+
+
+                     <div class="articles-card-content position-absolute w-100 h-100">
+                        <a href="#" class="text-white">
+                           جزئیات بررسی صلاحیت وزیر پیشنهادی ارتباطات؛ موافقان و مخالفان چه گفتند؟
+                        </a>
+                        <p class="text-white lead my-4">
+                           2021-10-26
+                        </p>
+                     </div>
+
+
+                  </div>
+               </div>
+
+
+
+               <div class="col-lg-4 px-5">
+                  <div class="articles-card position-relative mx-auto"
+                     style="background-image: url('images/post.resixe.png')">
+
+
+                     <div class="articles-card-content position-absolute w-100 h-100">
+                        <a href="#" class="text-white">
+                           جزئیات بررسی صلاحیت وزیر پیشنهادی ارتباطات؛ موافقان و مخالفان چه گفتند؟
+                        </a>
+                        <p class="text-white lead my-4">
+                           2021-10-26
+                        </p>
+                     </div>
+
+
+                  </div>
+               </div>
+
+               <div class="col-12 px-5 mt-5">
+                  <div class="float-end">
+                     <a href="#" target="blanket" class="text-dark">
+                        همه موارد
+                     </a>
+                     <i class="fal fa-arrow-left text-dark"></i>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+   </section>
+
+   <!-- فوتر -->
+
+   <section>
+      <div class="vh-100 bg-footer">
+         <div class="container d-md-flex justify-content-evenly d-block">
+            <div class="col-md-4 col-12">
+
+               <img class="mb-5 logo-footer" src="images/logo2.png" alt="">
+               <p class="text-white col-md-12 col-8 logo-p-footer ">
+                  شرکت توسعه تولید خلاق و فناور با شماره ثبت 575203 فعالیت رسمی خود را با انگیزه حرکت در مسیر توسعه و
+                  آبادانی ایران عزیز از سال 1397 آغاز نموده است.
+
+
+               </p>
+
+            </div>
+            <div class="col-md-4 col-8 address-footer">
+               <p class="text-white"> <i class="fad fa-home-lg-alt fs-1 me-3"></i>آدرس: خیابان ستارخان، خیابان باقرخان،
+                  پلاک 90، واحد 1، کدپستی 1441633591</p>
+               <p class="text-white"> <i class="fad fa-phone-alt fs-1 me-3"></i>تلفن: 66948494</p>
+               <p class="text-white"> <i class="fad fa-envelope fs-1 me-3"></i>ایمیل: INFO@NOVASI.IR</p>
+               <p class="text-white"> <i class="fad fa-globe-americas fs-1 me-3"></i>شبکه های اجتماعی: NOVASI_IR@</p>
+            </div>
+
+            <!-- <div class="position-relative">
+                            <div class="d-md-block d-none square-footer1 position-absolute"></div>
+                            <div class="d-md-block d-none square-footer2 position-absolute"></div>
+                        </div> -->
+         </div>
+         <div class="container">
+            <div class="col-12 text-center d-flex  justify-content-center">
+               <img class="logo-aspx mx-md-5 mx-2 mt-2 mt-md-5 " src="images/logo.aspx.png " alt=" ">
+               <img class="logo-aspx mx-md-5 mx-2 mt-2 mt-md-5 " src="images/logo.aspx.png " alt=" ">
+            </div>
+         </div>
+
+
+      </div>
+      </div>
+   </section>
+
+
+
+
+
+
+   <script src="js/jquery-3.6.0.min.js "></script>
+   <script src="js/popper.min.js "></script>
+   <script src="js/bootstrap.min.js "></script>
+   <script src="js/owl.carousel.min.js "></script>
+</body>
+
 </html>

@@ -2,244 +2,275 @@
 <html lang="fa" dir="rtl">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/reza.css" />
-    <link rel="stylesheet" href="css/fontiran.css">
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/all.min.css" />
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/fontiran.css">
 
-    <title>NewProject</title>
+   <title>NewProject</title>
 </head>
 
 <body>
-    <!-- منو اصلی سایت -->
+   <!-- منو اصلی سایت -->
 
-    <nav class="navbar navbar-dark fixed-top px-5" dir="ltr">
-        <div class="container-fluid">
-
-
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.svg" alt="logo" class="w-75">
-            </a>
-            <button class="navbar-toggler button-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-  
-              <svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="36"
-                 height="27" viewBox="0 0 36 27">
-                 <rect id="Rectangle_1" data-name="Rectangle 1" width="36" height="7" rx="3.5" fill="#fff"></rect>
-                 <rect id="Rectangle_1_copy" data-name="Rectangle 1 copy" width="36" height="7" rx="3.5"
-                    transform="translate(0 10)" fill="#fff"></rect>
-                 <rect id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" width="25.5" height="7" rx="3.5"
-                    transform="translate(10.5 20)" fill="#fff"></rect>
-              </svg>
-  
-           </button>
+   <nav class="navbar navbar-dark fixed-top px-5" dir="ltr">
+      <div class="container-fluid">
 
 
-            <div class="offcanvas offcanvas-start px-5 pt-5 main-menu" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" dir="rtl">
-                <div class="offcanvas-header pt-5">
-                    <a class="navbar-brand" id="offcanvasNavbarLabel" href="#">
-                        <img src="images/logo.svg" alt="logo" class="w-50">
-                    </a>
-                    <!-- <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas"
+         <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" alt="logo" class="w-75">
+         </a>
+         <button class="navbar-toggler button-menu" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+
+            <svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="36"
+               height="27" viewBox="0 0 36 27">
+               <rect id="Rectangle_1" data-name="Rectangle 1" width="36" height="7" rx="3.5" fill="#fff"></rect>
+               <rect id="Rectangle_1_copy" data-name="Rectangle 1 copy" width="36" height="7" rx="3.5"
+                  transform="translate(0 10)" fill="#fff"></rect>
+               <rect id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" width="25.5" height="7" rx="3.5"
+                  transform="translate(10.5 20)" fill="#fff"></rect>
+            </svg>
+
+         </button>
+
+
+         <div class="offcanvas offcanvas-start px-5 pt-5 main-menu" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel" dir="rtl">
+            <div class="offcanvas-header pt-5">
+               <a class="navbar-brand" id="offcanvasNavbarLabel" href="#">
+                  <img src="images/logo.svg" alt="logo" class="w-50">
+               </a>
+               <!-- <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button> -->
-                    <button type="button" class="btn text-light button-close">
-                    <i class="fad fa-times  display-6" data-bs-dismiss="offcanvas" aria-label="Close"></i>
-                 </button>
-                </div>
-                <div class="offcanvas-body">
+               <button type="button" class="btn text-light button-close">
+                  <i class="fad fa-times  display-6" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+               </button>
+            </div>
+            <div class="offcanvas-body">
 
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item py-3">
-                            <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
-                        </li>
-                        <li class="nav-item py-3">
-                            <a class="nav-link" href="#">برگه نمونه</a>
-                        </li>
-                        <li class="nav-item py-3">
-                            <a class="nav-link" href="#">پرداخت</a>
-                        </li>
-                        <li class="nav-item py-3">
-                            <a class="nav-link" href="#">حساب کاربری من</a>
-                        </li>
-                        <li class="nav-item py-3">
-                            <a class="nav-link" href="#">سبد خرید</a>
-                        </li>
-                        <li class="nav-item py-3">
-                            <a class="nav-link" href="#">فروشگاه</a>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <ul class="nav mb-4 float-end ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link menu-socails " href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menu-socails " href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                </ul>
+               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item py-3">
+                     <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">برگه نمونه</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">پرداخت</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">حساب کاربری من</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">سبد خرید</a>
+                  </li>
+                  <li class="nav-item py-3">
+                     <a class="nav-link" href="#">فروشگاه</a>
+                  </li>
+               </ul>
 
             </div>
 
-        </div>
-    </nav>
-    <!-- پایان منوی اصلی سایت -->
+            <ul class="nav mb-4 float-end ms-auto">
+               <li class="nav-item">
+                  <a class="nav-link menu-socails " href="#">
+                     <i class="fab fa-instagram"></i>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link menu-socails " href="#">
+                     <i class="fab fa-twitter"></i>
+                  </a>
+               </li>
+            </ul>
 
-    <!-- تصویر شاخص یا اسلایدر اصلی -->
+         </div>
 
-    <div class="main-picture mb-5">
-        <img src="images/Component-1-–-1-2.png" alt="Main-picture" class="img-menu">
-    </div>
+      </div>
+   </nav>
+   <!-- پایان منوی اصلی سایت -->
+
+   <!-- تصویر شاخص یا اسلایدر اصلی -->
+
+   <div class="main-picture mb-5">
+      <img src="images/Component-1-–-1-2.png" alt="Main-picture" class="img-menu">
+   </div>
 
 
 
-    <!-- توضیحات نواسی -->
-    <section>
-        <div class="container d-md-flex justify-content-between d-block  my-5">
-            <div class=" col-12 col-md-7 my-auto">
-                <p class="my-5 text-novasi text-muted">
-                    <span class="fw-bold">کار ما پاسخ به نیازهای کشور با تولید محصولات خلاق و بکارگیری فناوری های نوین (HighTech)است.</span><br> حرکت نواسی از نگاه خلاقانه شروع شد. تولید محصولات مبتنی بر خلاقیت شروعی بود که توانست خیلی زود مسیر خود را
-                    به بازار باز کند و به سرمایه گذاری در این بخش منجر شود. این بازار در کشور ما هنوز هم نو محسوب می شود و لازم است به دلیل خطر واردات و نبود حق کپی رایت با دقت خاصی طی شود. به همین دلیل بود که محصولات کم اهمیت را برای ورود به بازار و
-                    شناخت جوانب این کسب و کار انتخاب کردیم. در همین زمان با توجه به دانش تیم و توانمندی هایی که در تولید به دست اوردیم به حوزه فناوری های روز ورود کردیم و <span class="fw-bold"> به سرعت دو فناوری را برای جذب سرمایه ارائه نمودیم. فناوری خنک کننده های صنایع و همچنین فناوری باتری های نسل جدید. سانیوا در این روزها متولد شد</span>                    و توانستیم در زمان کوتاهی نسلی نو از ذخیره سازهای اینده را از مراحل تحقیقاتی و آزمایشگاهی گذرانده و به تولید برسانیم. اهمیت حوزه انرژی های نوین و سرمایه گذاری های کلان در این بخش، سانیوا را به ذائقه سرمایه گذاران خوش آورد و این محصول
-                    استراتژیک را وارد مرحله تجاری سازی نمود. <br><span class="fw-bold bg-warning pb-1"> ما در نواسی افتخار میکنیم که توانستیم خود را به جایگاه ویژه ای در زمینه های
-                   فعالیتمان برسانیم.</span>
-                </p>
+   <!-- توضیحات نواسی -->
+   <section>
+      <div class="container d-md-flex justify-content-between d-block  my-5">
+         <div class=" col-12 col-md-7 my-auto">
+            <p class="my-5 text-novasi text-muted">
+               <span class="fw-bold">کار ما پاسخ به نیازهای کشور با تولید محصولات خلاق و بکارگیری فناوری های نوین
+                  (HighTech)است.</span><br> حرکت نواسی از نگاه خلاقانه شروع شد. تولید محصولات مبتنی بر خلاقیت شروعی بود
+               که توانست خیلی زود مسیر خود را
+               به بازار باز کند و به سرمایه گذاری در این بخش منجر شود. این بازار در کشور ما هنوز هم نو محسوب می شود و
+               لازم است به دلیل خطر واردات و نبود حق کپی رایت با دقت خاصی طی شود. به همین دلیل بود که محصولات کم اهمیت
+               را برای ورود به بازار و
+               شناخت جوانب این کسب و کار انتخاب کردیم. در همین زمان با توجه به دانش تیم و توانمندی هایی که در تولید به
+               دست اوردیم به حوزه فناوری های روز ورود کردیم و <span class="fw-bold"> به سرعت دو فناوری را برای جذب
+                  سرمایه ارائه نمودیم. فناوری خنک کننده های صنایع و همچنین فناوری باتری های نسل جدید. سانیوا در این
+                  روزها متولد شد</span> و توانستیم در زمان کوتاهی نسلی نو از ذخیره سازهای اینده را از مراحل تحقیقاتی و
+               آزمایشگاهی گذرانده و به تولید برسانیم. اهمیت حوزه انرژی های نوین و سرمایه گذاری های کلان در این بخش،
+               سانیوا را به ذائقه سرمایه گذاران خوش آورد و این محصول
+               استراتژیک را وارد مرحله تجاری سازی نمود. <br><span class="fw-bold bg-warning pb-1"> ما در نواسی افتخار
+                  میکنیم که توانستیم خود را به جایگاه ویژه ای در زمینه های
+                  فعالیتمان برسانیم.</span>
+            </p>
+         </div>
+         <div class="col-12 col-md-2 my-auto text-center">
+            <img class=" w-100 d-none d-md-block" src="images/Layer 26.png" alt="">
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="pic-m-novasi" style="background: url('images/Layer 23.png')"> </div>
+   </section>
+   <!-- مزیت های رقابتی -->
+   <section>
+      <div class="container d-md-flex justify-content-between d-block my-5">
+         <div class="my-5 col-12 col-md-2 text-center">
+            <img class="w-100 d-none d-md-block" src="images/1954425-200.png" alt="">
+
+         </div>
+         <div class="col-12 col-md-8 my-auto">
+            <p class="mb-0 text-novasi text-muted"><span class="fw-bold">مزیت های رقابتی:</span><br><br> -طی شدن سیر
+               تکاملی محصولاتمان از ایده تا بازار در داخل مجموعه<br> -شـروع طراحـی محصولاتمـان از نیازسـنجی و اتفـاق
+               افتـادن ایـن فرآینـد بـدون مهندسـی معکـوس یـا کپـی بـرداری<br> -عدم
+               وجود رقبای داخلی و خارجی به علت انحصار طراحی و تولید محصولات به نواسی<br> -استفاده خلاقانه از فناوری های
+               موجود در ابداع روش های جدید<br> -ریسک پذیری در ورود به چالش فناوری های سخت و نو</p><br>
+         </div>
+      </div>
+   </section>
+   <!-- چشم انداز های ما -->
+   <section>
+      <div class="container my-5">
+         <h4 class="h-novasi mb-4">چشم اندازهای ما:</h4>
+         <div class="gr-novasi bnr-novasi text-center fw-bolder fs-5 py-5">
+            <p class="text-white">
+               حرکــت در مــرز فنــاوری و تــلاش بــرای گســترش آن<br><br> بهبــود تولیــدات کارگاه هــای کشــور بــا
+               هــدف حضــور مؤثــر در بازارهــای جهانــی
+            </p>
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="pic-m-novasi" style="background: url('images/Exposure1.png')"> </div>
+   </section>
+   <!-- دپارتمان نواسی -->
+   <section>
+      <div class="container mb-5">
+         <h4 class="text-center my-5 text-muted">دپارتمان های نواسی</h4>
+         <div class="d-block d-md-flex ">
+            <div class="col-12 col-md-4 text-center">
+               <img class="w-75" src="images/Asset 24@4x.png" alt="">
+               <p class="my-4 text-muted">فناوری های نوین</p>
             </div>
-            <div class="col-12 col-md-2 my-auto text-center">
-                <img class=" w-100 d-none d-md-block" src="images/Layer 26.png" alt="">
-            </div>
-        </div>
-    </section>
 
-    <section>
-        <div class="pic-m-novasi" style="background: url('images/Layer 23.png')"> </div>
-    </section>
-    <!-- مزیت های رقابتی -->
-    <section>
-        <div class="container d-md-flex justify-content-between d-block my-5">
-            <div class="my-5 col-12 col-md-2 text-center">
-                <img class="w-100 d-none d-md-block" src="images/1954425-200.png" alt="">
-
-            </div>
-            <div class="col-12 col-md-8 my-auto">
-                <p class="mb-0 text-novasi text-muted"><span class="fw-bold">مزیت های رقابتی:</span><br><br> -طی شدن سیر تکاملی محصولاتمان از ایده تا بازار در داخل مجموعه<br> -شـروع طراحـی محصولاتمـان از نیازسـنجی و اتفـاق افتـادن ایـن فرآینـد بـدون مهندسـی معکـوس یـا کپـی بـرداری<br> -عدم
-                    وجود رقبای داخلی و خارجی به علت انحصار طراحی و تولید محصولات به نواسی<br> -استفاده خلاقانه از فناوری های موجود در ابداع روش های جدید<br> -ریسک پذیری در ورود به چالش فناوری های سخت و نو</p><br>
-            </div>
-        </div>
-    </section>
-    <!-- چشم انداز های ما -->
-    <section>
-        <div class="container my-5">
-            <h4 class="h-novasi mb-4">چشم اندازهای ما:</h4>
-            <div class="gr-novasi bnr-novasi text-center fw-bolder fs-5 py-5">
-                <p class="text-white">
-                    حرکــت در مــرز فنــاوری و تــلاش بــرای گســترش آن<br><br> بهبــود تولیــدات کارگاه هــای کشــور بــا هــدف حضــور مؤثــر در بازارهــای جهانــی
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="pic-m-novasi" style="background: url('images/Exposure1.png')"> </div>
-    </section>
-    <!-- دپارتمان نواسی -->
-    <section>
-        <div class="container mb-5">
-            <h4 class="text-center my-5 text-muted">دپارتمان های نواسی</h4>
-            <div class="d-block d-md-flex ">
-                <div class="col-12 col-md-4 text-center">
-                    <img class="w-75" src="images/Asset 24@4x.png" alt="">
-                    <p class="my-4 text-muted">فناوری های نوین</p>
-                </div>
-
-                <div class="col-12 col-md-4 text-center">
-                    <img class="w-75" src="images/Asset 24@2x.png" alt="">
-                    <p class="my-4 text-muted">دارو و مواد شیمایی</p>
-                </div>
-
-                <div class="col-12 col-md-4 text-center">
-                    <img class="w-75" src="images/Asset 24.png" alt="">
-                    <p class="my-4 text-muted">خلاقیت</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- محصولات -->
-    <section>
-        <div class="container  d-block d-md-flex justify-content-between">
-            <div class="col-12 col-md-4 my-auto">
-                <p class="text-muted"><span class="fw-bold">محصولات:</span><br><br> -باتری سانیوا (فلز-هوا)<br> -آسان شکن فنو-وان (بادام شکن و گردوشکن)<br> -دریچه تهویه مطبوع متحرک بدون نیاز به برق<br> -آشغالگیر یکبار مصرف<br> -زیربالشتی با قابلیت تنظیم ارتفاع<br> -آچار خلاق</p>
-            </div>
-            <div class="col-12 col-md-8 text-center my-5">
-                <img class="w-75" src="images/IMG_20210109_14153122-scaled.png" alt="">
+            <div class="col-12 col-md-4 text-center">
+               <img class="w-75" src="images/Asset 24@2x.png" alt="">
+               <p class="my-4 text-muted">دارو و مواد شیمایی</p>
             </div>
 
-        </div>
-    </section>
-    <!-- پروژه ها و افتخارات شرکت -->
-    <section>
-        <div class="container my-5 ">
-            <div class="my-auto d-block d-md-flex justify-content-between">
-                <div class="col-12 col-md-5 text-center text-md-start my-5">
-                    <img class="w-75" src="images/Layer 27.png" alt="">
-                </div>
-                <div class="col-12 col-md-7 float-end my-auto mb-5">
-                    <p class="text-muted">
-                        <span class="fw-bold">پروژه ها و فعالیت های شرکت</span><br><br> -باتری های نسل جدید با فناوری فلز-هوا (سانیوا)<br> -بررسی و مطالعه روش های موجود برای تامین انرژی در شرایط عدم وجود هوا<br> -ساخت نمونه آزمایشگاهی و تست های مربوط
-                        به پیل سوختی آب برای تولید هیدروژن<br> -مطالعه تاثیر گردش الکترولیت در میزان تولید هیدروژن در روش الکترولیز<br> -امکانســنجی تولیــد و بهرهبــرداری از باتریهــای فلز -هــوا بــرای تامیــن انــرژی در عــدم -حضــور اکســیژن و مقایســه
-                        مــوردی آن بــا روشهــای پیــل ســوختی، موتورهــای احتــراق داخلــی، موتــور اســترلینگ و باتــری.<br> -ارائه گزارش و راهکار درباره روشهای تامین انرژی در زیر آب<br> -مطالعه و بررسی روشهای خنک کاری خانگی و صنعتی<br> -ساخت لوله های
-                        گرمایی به منظور خنک سازی<br> -طراحی و ابداع نمونه تحقیقاتی هسته سیستم نوین خنک کاری صنایع فولاد<br> -انجام تستهای آزمایشگاهی بر روی کولرهای سرمایش تبخیری دو مرحله ای<br> -بومی سازی روش تولید لوله های شستشوی آندوسکوپی یکبارمصرف<br>                        -ساخت کاتالیست الکترود هوا برای پیل سوختی
-                        <br> -ساخت الکترود کاتد برای باتری های فلز-هوا در سطح استانداردهای جهانی<br>
-                    </p>
-                </div>
+            <div class="col-12 col-md-4 text-center">
+               <img class="w-75" src="images/Asset 24.png" alt="">
+               <p class="my-4 text-muted">خلاقیت</p>
             </div>
-        </div>
-    </section>
-    <!-- گواهینامه ها و افتخارات -->
-    <section>
-        <div class="container">
-            <div class="mb-5">
-                <p class="text-muted">
-                    <span class="fw-bold">گواهی نامه ها و افتخارات</span><br><br> تاییدیه از پژوهشگاه مواد و انرژی وزارت علوم برای باتری های پروژه سانیوا (فناوری باتری های فلز-هوا)<br> گواهی نامه ثبت اختراع “بادام شکن دستی با قابلیت 18 برابر کردن نیروی
-                    کاربر” به شماره 100140<br> گواهی نامه ثبت اختراع “دریچه تهویه مطبوع متحرک بدون نیاز به برق” به شماره 101297<br> گواهی ثبت علامت تجاری “فنو-وان” به شماره 356549<br> گواهی نامه سیستم مدیریت ایمنی و بهداشت کار ISO 45001 : 2018<br> گواهی
-                    نامه سیستم مدیریت کیفیت ISO 9001 : 2015<br> گواهی نامه سیستم مدیریت یکپارچه ISO 45001 : 2018 , ISO 9001 : 2015 , ISO 14001 : 2015<br>
-                </p>
+         </div>
+      </div>
+   </section>
+   <!-- محصولات -->
+   <section>
+      <div class="container  d-block d-md-flex justify-content-between">
+         <div class="col-12 col-md-4 my-auto">
+            <p class="text-muted"><span class="fw-bold">محصولات:</span><br><br> -باتری سانیوا (فلز-هوا)<br> -آسان شکن
+               فنو-وان (بادام شکن و گردوشکن)<br> -دریچه تهویه مطبوع متحرک بدون نیاز به برق<br> -آشغالگیر یکبار مصرف<br>
+               -زیربالشتی با قابلیت تنظیم ارتفاع<br> -آچار خلاق</p>
+         </div>
+         <div class="col-12 col-md-8 text-center my-5">
+            <img class="w-75" src="images/IMG_20210109_14153122-scaled.png" alt="">
+         </div>
+
+      </div>
+   </section>
+   <!-- پروژه ها و افتخارات شرکت -->
+   <section>
+      <div class="container my-5 ">
+         <div class="my-auto d-block d-md-flex justify-content-between">
+            <div class="col-12 col-md-5 text-center text-md-start my-5">
+               <img class="w-75" src="images/Layer 27.png" alt="">
             </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="d-block d-md-flex my-5">
-                <div class="col-12 col-md-3 text-center ">
-                    <img class="w-75" src="images/koli.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 text-center ">
-                    <img class="w-75" src="images/45001.2018.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 text-center ">
-                    <img class="w-75" src="images/14001.2015.png" alt="">
-                </div>
-                <div class="col-12 col-md-3 text-center ">
-                    <img class="w-75" src="images/9001.2015.png" alt="">
-                </div>
+            <div class="col-12 col-md-7 float-end my-auto mb-5">
+               <p class="text-muted">
+                  <span class="fw-bold">پروژه ها و فعالیت های شرکت</span><br><br> -باتری های نسل جدید با فناوری فلز-هوا
+                  (سانیوا)<br> -بررسی و مطالعه روش های موجود برای تامین انرژی در شرایط عدم وجود هوا<br> -ساخت نمونه
+                  آزمایشگاهی و تست های مربوط
+                  به پیل سوختی آب برای تولید هیدروژن<br> -مطالعه تاثیر گردش الکترولیت در میزان تولید هیدروژن در روش
+                  الکترولیز<br> -امکانســنجی تولیــد و بهرهبــرداری از باتریهــای فلز -هــوا بــرای تامیــن انــرژی در
+                  عــدم -حضــور اکســیژن و مقایســه
+                  مــوردی آن بــا روشهــای پیــل ســوختی، موتورهــای احتــراق داخلــی، موتــور اســترلینگ و باتــری.<br>
+                  -ارائه گزارش و راهکار درباره روشهای تامین انرژی در زیر آب<br> -مطالعه و بررسی روشهای خنک کاری خانگی و
+                  صنعتی<br> -ساخت لوله های
+                  گرمایی به منظور خنک سازی<br> -طراحی و ابداع نمونه تحقیقاتی هسته سیستم نوین خنک کاری صنایع فولاد<br>
+                  -انجام تستهای آزمایشگاهی بر روی کولرهای سرمایش تبخیری دو مرحله ای<br> -بومی سازی روش تولید لوله های
+                  شستشوی آندوسکوپی یکبارمصرف<br> -ساخت کاتالیست الکترود هوا برای پیل سوختی
+                  <br> -ساخت الکترود کاتد برای باتری های فلز-هوا در سطح استانداردهای جهانی<br>
+               </p>
             </div>
-        </div>
-    </section>
+         </div>
+      </div>
+   </section>
+   <!-- گواهینامه ها و افتخارات -->
+   <section>
+      <div class="container">
+         <div class="mb-5">
+            <p class="text-muted">
+               <span class="fw-bold">گواهی نامه ها و افتخارات</span><br><br> تاییدیه از پژوهشگاه مواد و انرژی وزارت علوم
+               برای باتری های پروژه سانیوا (فناوری باتری های فلز-هوا)<br> گواهی نامه ثبت اختراع “بادام شکن دستی با
+               قابلیت 18 برابر کردن نیروی
+               کاربر” به شماره 100140<br> گواهی نامه ثبت اختراع “دریچه تهویه مطبوع متحرک بدون نیاز به برق” به شماره
+               101297<br> گواهی ثبت علامت تجاری “فنو-وان” به شماره 356549<br> گواهی نامه سیستم مدیریت ایمنی و بهداشت کار
+               ISO 45001 : 2018<br> گواهی
+               نامه سیستم مدیریت کیفیت ISO 9001 : 2015<br> گواهی نامه سیستم مدیریت یکپارچه ISO 45001 : 2018 , ISO 9001 :
+               2015 , ISO 14001 : 2015<br>
+            </p>
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="container">
+         <div class="d-block d-md-flex my-5">
+            <div class="col-12 col-md-3 text-center ">
+               <img class="w-75" src="images/koli.png" alt="">
+            </div>
+            <div class="col-12 col-md-3 text-center ">
+               <img class="w-75" src="images/45001.2018.png" alt="">
+            </div>
+            <div class="col-12 col-md-3 text-center ">
+               <img class="w-75" src="images/14001.2015.png" alt="">
+            </div>
+            <div class="col-12 col-md-3 text-center ">
+               <img class="w-75" src="images/9001.2015.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
 
 
 
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
 
 </body>
 

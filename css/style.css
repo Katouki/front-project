@@ -239,3 +239,373 @@ span.overlay::after {
   font-weight: bold;
   line-height: 36px;
 }
+
+.button-menu {
+  border: none;
+}
+
+.button-menu:focus {
+  box-shadow: none;
+}
+
+.button-close:focus {
+  box-shadow: none;
+}
+
+.img-menu {
+  height: 100vh;
+  width: 100%;
+}
+
+.offcanvas-start {
+  border-left: 0px;
+}
+/* پایان منو */
+
+.text-novasi,
+.text-p-artboard,
+.logo-p-footer,
+.departman-p2,
+.p-sc {
+  text-align: justify;
+}
+
+.pic-m-novasi {
+  height: 400px;
+  width: 100%;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 500px 36px -18px inset;
+}
+
+.gr-novasi {
+  background: linear-gradient(0deg, #09668e 0%, #0cb0b3 100%);
+}
+
+.bnr-novasi {
+  border-radius: 30px;
+}
+
+.h-novasi {
+  background: -webkit-linear-gradient(#09668e, #0cb0b3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Square {
+  height: 80%;
+  width: 60%;
+  background: linear-gradient(90deg, #0cb0b3 0%, #09668e 100%);
+  border-radius: 0px 0px 0px 25px;
+}
+
+.supercool-img {
+  left: -160px;
+  top: 190px;
+}
+
+.supercool-image {
+  top: 190px;
+}
+
+.icon-b1 {
+  left: 260px;
+  top: 370px;
+}
+
+.icon-b2 {
+  left: 360px;
+  top: 430px;
+}
+
+.icon-b3 {
+  left: 290px;
+  top: 270px;
+}
+
+.text-h1 {
+  width: 100%;
+  top: 30%;
+}
+
+@media (max-width: 991px) {
+  .Square {
+    width: 100% !important;
+    border-radius: 0px;
+  }
+  .tl-menu {
+    width: 100%;
+    text-align: center;
+    right: 0%;
+    top: 50%;
+  }
+  .thl-menu {
+    -webkit-text-fill-color: #fff;
+  }
+  .text-h1 {
+    width: 100%;
+    top: 40%;
+  }
+}
+
+.text-h4 {
+  font-family: IRANYekan !important;
+}
+
+.tl-menu {
+  bottom: 200px;
+  left: 10%;
+}
+
+.button-one {
+  border-radius: 20px;
+  background: linear-gradient(90deg, #0cb0b3 40%, #09668e 100%);
+  width: 200px;
+  height: 60px;
+  border: none;
+}
+
+.progress-sc {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.progress-insc {
+  border-radius: 0px 0px 20px 20px;
+  background: linear-gradient(0deg, #09668e 0%, #0cb0b3 100%);
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #f373af;
+  position: absolute;
+  left: 25%;
+  top: 35px;
+}
+
+.circle-2 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #f373af;
+  position: absolute;
+  left: 50%;
+  top: 35px;
+}
+
+.circle-3 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #f373af;
+  position: absolute;
+  left: 75%;
+  top: 35px;
+}
+
+.text-circle {
+  color: #f373af;
+  display: block ruby;
+  float: left;
+  margin-left: 25px;
+}
+
+.fa-chevron-left {
+  font-size: 3rem;
+  color: #09668e;
+}
+
+.s-header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #2bb896 0%, #09668e 100%);
+}
+
+.cloud {
+  top: 140px;
+  right: 240px;
+}
+
+.cloud2 {
+  top: 196px;
+  right: 200px;
+  width: 300px;
+}
+
+.cloud3 {
+  top: 226px;
+  right: 100px;
+  width: 180px;
+}
+
+.battery {
+  right: 100px;
+  top: 100px;
+  width: 600px;
+}
+
+.btn-header {
+  border-radius: 20px;
+  color: #2bb896;
+}
+
+.btn-header:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background: none !important;
+}
+
+.banner {
+  position: relative;
+  background-image: url(../images/3-scaled.jpg);
+  height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 500px 36px -18px inset;
+}
+
+.text-banner {
+  top: 150px;
+  left: 100px;
+  line-height: 50px;
+}
+
+.departman-p {
+  border-radius: 20px;
+  background: linear-gradient(90deg, #2bb896 0%, #09668e 100%);
+}
+
+.btn-departman {
+  border-radius: 0px 50% 50% 0px !important;
+}
+
+.btn-departman,
+.btnm-departman,
+.btnb-departman {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding: 10px !important;
+  width: 5px !important;
+  background-color: #28c2d2 !important;
+}
+
+.btnb-departman {
+  border-radius: 50% 0px 0px 50% !important;
+}
+
+.carousel-main {
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 100px;
+  right: 50%;
+}
+
+.mahsulat {
+  background: linear-gradient(90deg, #2bb896 0%, #09668e 100%);
+  border: none;
+  border-radius: 0px 0px 25px 25px;
+  left: -35px;
+  top: 50%;
+  transform: rotate(-90deg);
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+}
+
+.bg-saniva {
+  background-image: url(../images/saniva-battery.png);
+}
+
+.text-artboard {
+  padding-top: 30%;
+}
+
+.bg-footer {
+  background: linear-gradient(90deg, #0cb0b3 0%, #09668e 100%);
+}
+
+.logo-footer {
+  width: 40%;
+  margin-top: 200px;
+}
+
+.address-footer {
+  margin-top: 200px;
+}
+
+@media (max-width: 767px) {
+  .logo-footer {
+    margin-right: 30%;
+    margin-top: 50px;
+  }
+  .logo-p-footer {
+    margin-right: 17%;
+  }
+  .address-footer {
+    margin-top: 50px;
+    margin-right: 17%;
+  }
+  .div-responsiv {
+    margin-right: -80px;
+  }
+  .text-banner {
+    line-height: 0px;
+  }
+}
+
+.logo-aspx {
+  height: 130px;
+}
+
+.bg-mahsulat {
+  background: linear-gradient(90deg, #86e6f7 0%, #0cb0b3 100%);
+}
+
+.li-mahsulat1:hover,
+.li-mahsulat2:hover,
+.li-mahsulat3:hover,
+.li-mahsulat4:hover {
+  list-style-type: none;
+}
+
+.li-mahsulat1 {
+  margin-right: 50%;
+  height: 40px;
+  width: 175px;
+}
+
+.li-mahsulat2 {
+  margin-right: 50%;
+  height: 40px;
+  width: 175px;
+}
+
+.li-project2 {
+  margin-right: 50%;
+  height: 40px;
+  width: 180px;
+}
+
+.li-mahsulat3 {
+  margin-right: 50%;
+  height: 40px;
+  width: 175px;
+}
+
+.li-mahsulat4 {
+  margin-right: 50%;
+  height: 50px;
+  width: 230px;
+}
+
+.btn-mahsulat1:hover,
+.btn-mahsulat2:hover,
+.btn-mahsulat3:hover,
+.btn-mahsulat4:hover {
+  background-color: #fff;
+  border-radius: 25px;
+  transition: 0.3s all;
+}
