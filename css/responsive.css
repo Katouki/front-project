@@ -2,10 +2,47 @@
   .media-sec {
     margin: 0;
   }
+  .logo-footer {
+    margin-right: 30%;
+    margin-top: 50px;
+  }
+  .logo-p-footer {
+    margin-right: 17%;
+  }
+  .address-footer {
+    margin-top: 50px;
+    margin-right: 17%;
+  }
+  .div-responsiv {
+    margin-right: -80px;
+  }
+  .text-banner {
+    line-height: 25px;
+  }
 }
 
 @media (max-width: 991px) {
   .articles-card-content {
     padding: 30% 20px;
+  }
+  .Square {
+    width: 100% !important;
+    border-radius: 0px;
+  }
+  .tl-menu {
+    width: 100%;
+    text-align: center;
+    right: 0%;
+    top: 50%;
+  }
+  .thl-menu {
+    -webkit-text-fill-color: #fff;
+  }
+  .text-h1 {
+    width: 100%;
+    top: 40%;
+  }
+  .fix-height {
+    height: auto !important;
   }
 }

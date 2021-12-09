@@ -329,26 +329,6 @@ span.overlay::after {
   top: 30%;
 }
 
-@media (max-width: 991px) {
-  .Square {
-    width: 100% !important;
-    border-radius: 0px;
-  }
-  .tl-menu {
-    width: 100%;
-    text-align: center;
-    right: 0%;
-    top: 50%;
-  }
-  .thl-menu {
-    -webkit-text-fill-color: #fff;
-  }
-  .text-h1 {
-    width: 100%;
-    top: 40%;
-  }
-}
-
 .text-h4 {
   font-family: IRANYekan !important;
 }
@@ -520,7 +500,7 @@ span.overlay::after {
 }
 
 .text-artboard {
-  padding-top: 30%;
+  padding: 20% 0;
 }
 
 .bg-footer {
@@ -534,26 +514,6 @@ span.overlay::after {
 
 .address-footer {
   margin-top: 200px;
-}
-
-@media (max-width: 767px) {
-  .logo-footer {
-    margin-right: 30%;
-    margin-top: 50px;
-  }
-  .logo-p-footer {
-    margin-right: 17%;
-  }
-  .address-footer {
-    margin-top: 50px;
-    margin-right: 17%;
-  }
-  .div-responsiv {
-    margin-right: -80px;
-  }
-  .text-banner {
-    line-height: 0px;
-  }
 }
 
 .logo-aspx {
