@@ -535,30 +535,35 @@ span.overlay::after {
   margin-right: 50%;
   height: 40px;
   width: 175px;
+  border-radius: 25px;
 }
 
 .li-mahsulat2 {
   margin-right: 50%;
   height: 40px;
   width: 175px;
+  border-radius: 25px;
 }
 
 .li-project2 {
   margin-right: 50%;
   height: 40px;
   width: 180px;
+  border-radius: 25px;
 }
 
 .li-mahsulat3 {
   margin-right: 50%;
   height: 40px;
   width: 175px;
+  border-radius: 25px;
 }
 
 .li-mahsulat4 {
   margin-right: 50%;
   height: 50px;
   width: 230px;
+  border-radius: 25px;
 }
 
 .btn-mahsulat1:hover,
@@ -566,6 +571,5 @@ span.overlay::after {
 .btn-mahsulat3:hover,
 .btn-mahsulat4:hover {
   background-color: #fff;
-  border-radius: 25px;
   transition: 0.3s all;
 }
