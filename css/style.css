@@ -573,3 +573,42 @@ span.overlay::after {
   background-color: #fff;
   transition: 0.3s all;
 }
+
+/*  */
+
+.li-mahsulat {
+  font-size: 22px;
+  width: fit-content;
+}
+.li-mahsulat:hover {
+  background: #fff;
+  list-style: none;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.limahsulat:hover .const-pic {
+  display: none;
+}
+
+.product {
+  border-radius: 35px;
+  display: none;
+}
+
+.li-mahsulat-active {
+  background: #fff;
+  list-style: none;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.product-img {
+  width: auto;
+  height: 100%;
+  max-height: 260px;
+}
+
+.bg-product {
+  background: rgba(255, 255, 255, 0.8);
+}
