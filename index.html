@@ -11,6 +11,7 @@
    <link rel="stylesheet" href="css/responsive.css" />
    <link rel="stylesheet" href="css/fontiran.css">
    <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/fullpage.min.css">
    <title>NewProject</title>
 </head>
 
@@ -115,7 +116,7 @@
 
    <!-- بنر نواسی -->
 
-   <section>
+   <section class="mb-5">
       <div class="banner">
 
          <h5 class="text-white position-absolute text-banner my-auto col-md-3 col-6">کار ما پاسخگویی به نیازهای کشور با
@@ -125,76 +126,99 @@
    </section>
 
    <!-- دپارتمان دارو و مواد شیمیایی -->
-
-   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators carousel-main col-1 position-absolute m-0 ">
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-            class="active btn-departman btnt-departman" aria-current="true" aria-label="Slide 1"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btnm-departman"
-            aria-label="Slide 2"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btnb-departman"
-            aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-         <div class="carousel-item active">
-
-            <section class="position-relative">
-               <div>
-                  <a class="btn mahsulat position-absolute px-3 text-white text-center">پروژه ها</a>
-               </div>
-               <div class="vh-100 container d-lg-flex d-block ">
-                  <div class="col-lg-7 col-12 mt-5  text-center my-lg-auto">
-                     <img class="w-25" src="images/khalaghiat.png" alt="">
-                  </div>
-                  <div class="col-lg-5 col-12 mt-5  text-center text-lg-start my-lg-auto ">
-                     <h1 class="fw-bold mb-4">آینده بر مدار علم</h1>
-                     <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان فناوری های نوین</p>
-                     <p class="mt-4 departman-p2">این دپارتمان با هدف تحقیق، توسعه و بومی سازی فناوری های نوین فعالیت می
-                        کند. حل مشکلات با استفاده از فناوری های بروز دغدغه ماست. همچنین تلاش می کنیم تا در زمینه های
-                        متفاوت به آخرین سطح تکنولوژی دست پیدا کنیم.</p>
-                  </div>
-               </div>
-            </section>
-
-         </div>
-         <div class="carousel-item">
-            <section>
-
-               <div class="vh-100 container d-lg-flex d-block ">
-                  <div class="col-lg-7 col-12 mt-5  text-center my-lg-auto">
-                     <img class="w-50" src="images/shimi.png" alt="">
-                  </div>
-                  <div class="col-lg-5 col-12 mt-5  text-center text-lg-start my-lg-auto ">
-                     <h1 class="fw-bold mb-4">کیمیاگری در بی نهایت</h1>
-                     <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان دارو و مواد شیمایی</p>
-                     <p class="mt-4 departman-p2">این دپارتمان با هدف ساخت و تولید مواد شیمیایی مورد نیاز کشور و همچنین
-                        داروهای تلفیقی(برپایه گیاهی) فعالیت می کند.تمامی مراحل طراحی،ساخت و تولید این مواد در داخل کشور
-                        طی می شود.</p>
-                  </div>
-               </div>
-            </section>
-         </div>
-         <div class="carousel-item">
-            <section class="position-relative">
-               <div>
-                  <a class="btn mahsulat position-absolute px-3 text-white text-center" href>محصولات</a>
-               </div>
-               <div class="vh-100 container d-lg-flex d-block ">
-                  <div class="col-lg-7 col-12 mt-5  text-center my-lg-auto">
-                     <img class="w-25" src="images/fanavari-novin.png" alt="">
-                  </div>
-                  <div class="col-lg-5 col-12 mt-5  text-center text-lg-start my-lg-auto ">
-                     <h1 class="fw-bold mb-4">آینده بر مدار علم</h1>
-                     <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان فناوری های نوین</p>
-                     <p class="mt-4 departman-p2">این دپارتمان با هدف تحقیق، توسعه و بومی سازی فناوری های نوین فعالیت می
-                        کند. حل مشکلات با استفاده از فناوری های بروز دغدغه ماست. همچنین تلاش می کنیم تا در زمینه های
-                        متفاوت به آخرین سطح تکنولوژی دست پیدا کنیم.</p>
-                  </div>
-               </div>
-            </section>
-         </div>
-      </div>
+   <div class="container">
+      <h3 class="fw-bold h1-sec my-5">
+         پروژه ها
+      </h3>
    </div>
+
+   <article class="">
+
+
+
+      <section class="vh-100 position-relative align-items-center d-flex">
+
+         <a class="btn mahsulat position-absolute px-3 text-white text-center">پروژه ها</a>
+
+
+         <div class="container">
+            <div class="row g-5">
+
+
+               <div class="col-lg-7 col-12 text-center ">
+                  <img class="w-25" src="images/khalaghiat.png" alt="">
+               </div>
+
+
+               <div class="col-lg-5 col-12 text-center text-lg-start">
+                  <h1 class="fw-bold mb-4">آینده بر مدار علم</h1>
+                  <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان فناوری های نوین</p>
+                  <p class="mt-4 departman-p2">این دپارتمان با هدف تحقیق، توسعه و بومی سازی فناوری های نوین فعالیت می
+                     کند. حل مشکلات با استفاده از فناوری های بروز دغدغه ماست. همچنین تلاش می کنیم تا در زمینه های
+                     متفاوت به آخرین سطح تکنولوژی دست پیدا کنیم.</p>
+               </div>
+
+
+            </div>
+         </div>
+      </section>
+
+
+      <section class="vh-100 position-relative align-items-center d-flex">
+
+
+         <div class="container">
+            <div class="row g-5">
+
+
+               <div class="col-lg-7 col-12 text-center ">
+                  <img class="w-50" src="images/shimi.png" alt="">
+               </div>
+
+
+               <div class="col-lg-5 col-12 text-center text-lg-start">
+                  <h1 class="fw-bold mb-4">کیمیاگری در بی نهایت</h1>
+                  <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان دارو و مواد شیمایی</p>
+                  <p class="mt-4 departman-p2">این دپارتمان با هدف ساخت و تولید مواد شیمیایی مورد نیاز کشور و همچنین
+                     داروهای تلفیقی(برپایه گیاهی) فعالیت می کند.تمامی مراحل طراحی،ساخت و تولید این مواد در داخل کشور
+                     طی می شود.</p>
+               </div>
+
+
+            </div>
+         </div>
+      </section>
+
+
+      <section class="vh-100 position-relative align-items-center d-flex">
+
+         <a class="btn mahsulat position-absolute px-3 text-white text-center">پروژه ها</a>
+
+
+         <div class="container">
+            <div class="row g-5">
+
+
+               <div class="col-lg-7 col-12 text-center ">
+                  <img class="w-25" src="images/fanavari-novin.png" alt="">
+               </div>
+
+
+               <div class="col-lg-5 col-12 text-center text-lg-start">
+                  <h1 class="fw-bold mb-4">آینده بر مدار علم</h1>
+                  <p class="departman-p d-inline text-white py-2 px-3 fw-bold">دپارتمان فناوری های نوین</p>
+                  <p class="mt-4 departman-p2">این دپارتمان با هدف تحقیق، توسعه و بومی سازی فناوری های نوین فعالیت می
+                     کند. حل مشکلات با استفاده از فناوری های بروز دغدغه ماست. همچنین تلاش می کنیم تا در زمینه های
+                     متفاوت به آخرین سطح تکنولوژی دست پیدا کنیم.</p>
+               </div>
+
+
+            </div>
+         </div>
+      </section>
+
+   </article>
+
 
    <!-- سانیوا،باتری فلز و هوا -->
 
@@ -434,6 +458,7 @@
    <script src="js/popper.min.js "></script>
    <script src="js/bootstrap.min.js "></script>
    <script src="js/owl.carousel.min.js "></script>
+   <script src="js/fullpage.min.js"></script>
 
    <script>
 
@@ -445,7 +470,7 @@
             } else {
                $(".navbar").css("background", "none");
             }
-         })
+         });
       })
    </script>
 </body>

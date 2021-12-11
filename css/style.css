@@ -659,3 +659,11 @@ span.overlay::after {
 .overlay-home::after {
   background: linear-gradient(170deg, #ec6f664a 15%, #f3a1837d 100%) !important;
 }
+
+.scroller {
+  scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
