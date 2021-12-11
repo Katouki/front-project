@@ -24,7 +24,7 @@
             <img src="images/logo.png" alt="logo" class="w-75  d-none d-lg-block">
             <img src="images/logo.svg" alt="logo" class="w-75 d-block d-lg-none">
          </a>
-         <button class="navbar-toggler button-menu" type="button" data-bs-toggle="offcanvas"
+         <button class="navbar-toggler button-menu border-0" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
 
             <svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="36"
@@ -235,6 +235,19 @@
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
 
+
+   <script>
+      $(document).ready(function () {
+         $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll > 10) {
+               $(".navbar").css("background", "#489f968a");
+            } else {
+               $(".navbar").css("background", "none");
+            }
+         })
+      })
+   </script>
 </body>
 
 </html>

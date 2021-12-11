@@ -9,6 +9,10 @@ body a {
   text-decoration: none;
 }
 
+nav.navbar {
+  transition: all 0.3s ease-out;
+}
+
 /* استایل مربوط به اسلایدر OWL */
 
 .owl-theme .owl-dots .owl-dot span {
