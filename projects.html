@@ -99,29 +99,83 @@
    <!-- منو محصولات -->
 
 
-   <section>
-      <div class="vh-100 bg-mahsulat d-flex">
-         <div class="col-md-6 col-12 my-auto text-center">
-            <div class="col-12">
-               <h1 class="text-white">پروژه ها</h1>
-            </div>
-            <div class="col-12 div-responsiv">
-               <ul class="d-inline text-start text-white ul-mahsulat">
-                  <li class="li-mahsulat1  my-3 "><button class="btn bg-none border-none btn-mahsulat1">سانیوا (باتری
-                        فلز-هوا)</button></li>
-                  <li class="li-mahsulat2 li-project2  my-3"><button class="btn bg-none border-none btn-mahsulat2">سیستم
-                        نوین خنک کاری</button></li>
-                  <li class="li-mahsulat3  my-3"><button class="btn bg-none border-none btn-mahsulat3">کولــر سوپر
-                        کول</button></li>
-                  <li class="li-mahsulat4  my-3"><button class="btn bg-none border-none btn-mahsulat4">برس شستشوی لوله
-                        آندوسکوپی</button></li>
+   <section class="vh-100 align-items-center d-flex text-center bg-mahsulat">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 text-start my-auto">
+               <h3 class="text-light display-6 fw-bold">پروژه ها</h3>
+
+
+               <ul class="flex-column ul-mahsulat px-5 py-3">
+
+                  <li class="nav-item text-light li-mahsulat my-2">
+                     <a class="nav-link text-dark limahsulat1" href="#"
+                        data-imgurl="https://test.zoland.ir/wp-content/uploads/2021/10/Layer-15-copy.png"
+                        data-title="ویژگی اول" data-backcolor="linear-gradient(90deg, #dd3333, #d1c330)">
+                        آسان شکن فنــــو-وان
+                     </a>
+                  </li>
+
+
+                  <li class="nav-item text-light li-mahsulat my-2">
+                     <a class="nav-link text-dark limahsulat2" href="#"
+                        data-imgurl="https://test.zoland.ir/wp-content/uploads/2021/10/Layer-15-copy.png"
+                        data-title="ویژگی دوم" data-backcolor="linear-gradient(90deg, #ee0979, #ff6a00)">
+                        دریچه کولر متحرک
+                     </a>
+                  </li>
+
+
+                  <li class="nav-item text-light li-mahsulat my-2">
+                     <a class="nav-link text-dark limahsulat3" href="#"
+                        data-imgurl="https://test.zoland.ir/wp-content/uploads/2021/10/Layer-15-copy.png"
+                        data-title="ویژگی سوم" data-backcolor="linear-gradient(90deg, #DCE35B, #45B649)">
+                        آشغالگیــر یکبار مصرف
+                     </a>
+                  </li>
+
                </ul>
+
+
             </div>
-         </div>
-         <div class="col-6 my-auto text-center d-none d-md-block">
-            <img class="w-50" src="images/image-projects.png" alt="">
+
+
+
+            <div class="col-md-6">
+
+               <div class="img-holder w-50 img-fluid const-pic text-center" id="sample-img-of-holder">
+                  <img src="images/image-mahsulat.png" class="w-100" alt="">
+               </div>
+
+
+               <div class="product overflow-hidden change-product" id="change-product-info">
+
+                  <div class="bg-product mb-2">
+
+                     <img class="img-fluid p-5 rounded-3 product-img" src="images/Layer 15.png" alt="">
+
+                  </div>
+
+
+
+                  <div class="px-5 py-3 bg-product">
+                     <p class="text-start">
+                        <strong>ویژگی ها:</strong><br>
+                        <span class="text"></span>
+                     </p>
+                  </div>
+               </div>
+
+
+
+
+            </div>
+
+
+
          </div>
       </div>
+
    </section>
 
 
@@ -135,6 +189,29 @@
    <script src="js/popper.min.js "></script>
    <script src="js/bootstrap.min.js "></script>
    <script src="js/owl.carousel.min.js "></script>
+
+
+   <script>
+
+
+
+      $(document).ready(function () {
+
+         $('.ul-mahsulat li a').on('mouseover', function (e) {
+            var _this = $(this);
+            $('#sample-img-of-holder').animate({ opacity: 0 }, 300).css('display', 'none')
+            $('#change-product-info').animate({ opacity: 0 }, 10);
+            $('#change-product-info img').attr('src', _this.attr('data-imgurl'));
+            $('#change-product-info .text').html(_this.attr('data-title'));
+            $('#change-product-info .more-infor-link-holder').attr('href', _this.attr('href'));
+            $('.bg-mahsulat').css('background', _this.attr('data-backcolor'))
+            $('#change-product-info').css('display', 'block')
+            $('#change-product-info').animate({ opacity: 1 }, 300);
+         })
+
+
+      });
+   </script>
 </body>
 
 </html>
